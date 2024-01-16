@@ -143,8 +143,147 @@ nav{
 /* our tour end */
 
 /*  Destination */
+.destination{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    text-align: center;
 
+}
+.destinationImgOne{
+    width: 100%;
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+.grupImgOne{
+    background-image: url('./Images/Rectangle\ 5.png');
+    height: 300px;
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.grupName{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.grupImgTwo{
+    background-image: url('./Images/Rectangle\ 8.png');
+    height: 300px;
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destinationImgTwo{
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+    gap: 24px;
+}
+.grupImgthree{
+    background-image: url('./Images/Rectangle\ 6.png');
+    height: 300px;
+    width: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.grupImgFour{
+    background-image: url('./Images/Rectangle\ 7.png');
+    height: 300px;
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.grupImgFive{
+    background-image: url('./Images/Rectangle\ 9.png');
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.destinationImgThree{
+    display: flex;
+    gap: 24px;
+    margin-top: 10px;
+}
+.grupImgSix{
+    background-image: url('./Images/Rectangle\ 11.png');
+    height: 300px;
+    width: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.grupImgSeven{
+    background-image: url('./Images/Rectangle\ 10.png');
+    height: 300px;
+    width: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
 /*  Destination */
+.choose{
+    
+}
+.choose div h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 24px;
+
+}
+.chooseP{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.chooseBox{
+    display: flex;
+    gap: 24px;
+    text-align:left;
+}
+.box{
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    ;
+    border-radius: 10px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.box h3{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.chooseBoxx{
+    width: 50%;
+    margin: auto;
+    margin-top: 24px;
+}
 
 
 
@@ -153,6 +292,12 @@ nav{
 
 /* mobile device */
 @media screen and (max-width:576px) {
+    .chooseBoxx{
+        width: 100%;
+    }
+    .chooseBox{
+        flex-direction: column;
+    }
     .bars{
         display: block;
     }
@@ -183,6 +328,53 @@ nav{
     .ourTourText{
         width: 100%;
     }
+    .destinationImgOne{
+        flex-direction: column;
+    }
+    .grupImgOne{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .grupImgTwo{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .grupName{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        
+    }
+    .destinationImgTwo{
+        flex-direction: column;
+    }
+    .grupImgthree{
+        width: 100%;
+        background-size: cover;
+       
+    }
+    .grupImgFour{
+        width: 100%;
+    }
+    .grupImgFive{
+        width: 100%;
+        background-size: cover;
+
+    }
+    .destinationImgThree{
+        flex-direction: column;
+    }
+    .grupImgSix{
+        width: 100%;
+        background-size: cover;
+
+    }
+    .grupImgSeven{
+        width: 100%;
+        background-size: cover;
+
+    }
+   
     
 }
 
@@ -211,5 +403,41 @@ nav{
     }
     .ourTourText{
         width: 100%;
+    }
+    .destinationImgOne{
+        flex-direction: column;
+    }
+    .grupImgOne{
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    .grupImgTwo{
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    .grupName{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        
+    }
+    .destinationImgTwo{
+        flex-direction: column;
+    }
+    .grupImgthree{
+        width: 100%;
+        background-size: cover;
+       
+    }
+    .grupImgFour{
+        width: 100%;
+        background-size: cover;
+    }
+    .grupImgFive{
+        width: 100%;
+        background-size: cover;
+
     }
 }
