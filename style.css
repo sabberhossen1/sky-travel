@@ -284,6 +284,32 @@ nav{
     margin: auto;
     margin-top: 24px;
 }
+.Family{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.Family h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.FamilySection{
+    width: 100%;
+
+}
+.FamilySectionImg{
+    width: 50%;
+    border-radius: 10px;
+}
+.FamilyImg{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
 
 
 
@@ -294,6 +320,13 @@ nav{
 @media screen and (max-width:576px) {
     .chooseBoxx{
         width: 100%;
+    }
+    .FamilySectionImg{
+        width: 100%;
+        
+    }
+    .FamilyImg{
+        flex-direction: column;
     }
     .chooseBox{
         flex-direction: column;
