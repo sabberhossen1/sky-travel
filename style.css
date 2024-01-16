@@ -100,6 +100,51 @@ nav{
 }
 
 /*banner end  */
+/* our tours */
+.ourTour{
+    display:flex ;
+    justify-content:space-between;
+    gap: 20px;
+    margin-top: 100px;
+}
+.ourTourText{
+   width: 50%; 
+}
+.ourTourText h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.ourTourText p{
+    margin-bottom: 24px;
+}
+.ourTourText ul li{
+    margin-bottom: 16px;
+}
+.ourTourImg{
+    width: 50%;
+}
+.ourTourImg img{
+    width:100% ;
+}
+.ourBtn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    background-color: #FF5400;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 32px;
+    
+}
+
+/* our tour end */
+
+/*  Destination */
+
+/*  Destination */
 
 
 
@@ -129,6 +174,15 @@ nav{
     .banner{
         height: 600px;
     }
+    .ourTour{
+        flex-direction: column;
+    }
+    .ourTourImg{
+        width: 100%;
+    }
+    .ourTourText{
+        width: 100%;
+    }
     
 }
 
@@ -148,5 +202,14 @@ nav{
     }
     .banner{
         height: 600px;
+    }
+    .ourTour{
+        flex-direction: column;
+    }
+    .ourTourImg{
+        width: 100%;
+    }
+    .ourTourText{
+        width: 100%;
     }
 }
